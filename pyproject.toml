@@ -1,0 +1,14 @@
+[project]
+name = "dsan6000-hw02"
+version = "0.1.0"
+description = "DSAN 6000 HW2: Jupyter on EC2"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.43.92",
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "seaborn>=0.13.2",
+]
